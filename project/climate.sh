@@ -12,4 +12,5 @@ export R_LIBS=$PWD/packages
 
 # run your script
 mkdir -p data
+mkdir -p sensor_year
 Rscript cut_sensor.R $1
