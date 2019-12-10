@@ -11,4 +11,5 @@ export RHOME=$PWD/R
 export R_LIBS=$PWD/packages
 
 # run your script
+mkdir ./data
 Rscript cut_sensor.R $1
