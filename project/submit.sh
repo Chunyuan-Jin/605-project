@@ -1,8 +1,4 @@
 #!/bin/bash
 
-condor_submit submit.sub
+condor_dag submit.dag
 
-chmod a+x merge.sh
-./merge.sh
-
-Rscript sensor_test.R
